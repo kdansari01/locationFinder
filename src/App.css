@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+  background: url("https://img.freepik.com/free-vector/set-route-address-destination-gps-navigator-pin-blue-color-map-set-mark-map-isometric-view_39422-981.jpg?w=826&t=st=1698988207~exp=1698988807~hmac=c212acf4509dc1ed7c016d6966841cc5b09b4d33aa77a6224a117fa52d7b8a2b");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container input {
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
